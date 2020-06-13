@@ -1,0 +1,44 @@
+.login_window {
+    margin-top: 30vh !important;
+    width: 50%;
+    min-height: fit-content !important;
+}
+
+.accept_form {
+    /* width: fit-content; */
+}
+
+.tox-statusbar__text-container {
+    display: none !important;
+}
+
+.invite_cardBody {
+    background: bisque;
+}
+
+.invite_card {
+    background-size: cover !important;
+    background-color: antiquewhite;
+}
+
+.card {
+    min-height: 100vh;
+    background: beige;
+}
+
+.rejected_card,
+.pending_card,
+.accepte_card {
+    min-height: auto;
+}
+
+.invite_cardHead {
+    background-color: #f0f8ff00;
+    border-bottom: none;
+}
+
+@media(max-width: 992px) {
+    .login_window {
+        width: 100%;
+    }
+}
